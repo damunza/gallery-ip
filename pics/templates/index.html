@@ -3,5 +3,37 @@
 
 {% block content %}
 
-<h1>something</h1>
+<input type="text" name="location" placeholder="Enter Location">
+<button type="submit" style="background-color:white;">View Images</button>
+
+{% for c in content %}
+  <img src="{{c.image.url}}" class="img-responsive" alt="Image" data-toggle="modal" data-target="#exampleModal">
+{% endfor %}
+
+{% for c in content %}
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{c.name}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <img class="card-img-top" style="height:200px; width: 200px;" src="{{c.image.url}}" alt="Image">
+          <div class="card-body">
+            <p><b>Description:</b> {{c.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
 {% endblock %}

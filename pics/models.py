@@ -24,3 +24,30 @@ class Image(models.Model):
     def __str__(self):
         return self.name
 
+    def save_image(self):
+        self.save()
+
+    @classmethod
+    def delete_image(cls,id):
+        image = cls.objects.filter(id = id)
+        image.delete()
+
+    @classmethod
+    def get_image(cls,id):
+        image = cls.objects.filter(id = id)
+
+        return image
+
+    @classmethod
+    def search_image(cls,search_term):
+        image = cls.objects.filter(category__icontains = search_term)
+
+        return image
+
+    @classmethod
+    def view_image(cls,town):
+        image = cls.objects.filter(location = town)
+
+        return image
+
+
