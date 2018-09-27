@@ -5,10 +5,14 @@
   <head>
     <meta charset="utf-8">
     {% if title %}
-    <title>{{title}}</title>
+      <title>{{title}}</title>
     {% else %}
-    <title>Gallery</title>
+      <title>Gallery</title>
     {% endif %}
+
+    {% block styles %}
+    {% bootstrap_css %}
+    {% endblock %}
   </head>
   <body>
     {% include 'navbar.html' %}

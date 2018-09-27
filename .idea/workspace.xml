@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/pics/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pics/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pics/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pics/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pics/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pics/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pics/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +58,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pics/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1537969505440" expanded="true" signature="109:110" ph="..." />
-                <marker date="1537969505440" expanded="true" signature="133:169" ph="..." />
+                <marker date="1538039303143" expanded="true" signature="109:110" ph="..." />
+                <marker date="1538039303143" expanded="true" signature="133:208" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pics/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -220,12 +221,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="814" height="872" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3301887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3301887" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -275,18 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pics/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1537969505440" expanded="true" signature="109:110" ph="..." />
-            <marker date="1537969505440" expanded="true" signature="133:169" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -316,6 +304,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pics/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pics/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -323,12 +321,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pics/admin.py">
+    <entry file="file://$PROJECT_DIR$/pics/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1538039303143" expanded="true" signature="109:110" ph="..." />
+            <marker date="1538039303143" expanded="true" signature="133:208" ph="..." />
           </folding>
         </state>
       </provider>
