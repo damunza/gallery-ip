@@ -50,3 +50,10 @@ class Image(models.Model):
 
         return image
 
+    @classmethod
+    def image_cat(cls, category):
+        image = cls.objects.filter(category=category)
+
+        return image
+
+
