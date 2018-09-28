@@ -7,13 +7,14 @@ from .models import *
 def home(request):
     locations = Places.objects.all()
     images = Image.objects.all()
+    cat = Category.objects.all()
     title = "Gallery"
     if 'location' in request.GET and request.GET['location']:
         town = request.GET.get('location')
         pictures = Image.view_image(town)
         return render(request, 'index.html', {'title': title, 'content': pictures})
 
-    return render(request, 'index.html',{'location': locations, 'content': images})
+    return render(request, 'index.html',{'location': locations, 'content': images, 'category': cat})
 
 def search(request):
 
