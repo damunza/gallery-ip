@@ -27,7 +27,7 @@ def search(request):
 
     if 'category' in request.GET and request.GET['category']:
         search_term = request.GET.get('category')
-        pictures = Image.image_cat(search_term)
+        pictures = Image.search_image(search_term)
 
         title = f'{search_term}'
         return render(request,'search.html',{'title': title, 'content': pictures})
