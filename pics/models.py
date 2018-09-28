@@ -45,9 +45,8 @@ class Image(models.Model):
         return image
 
     @classmethod
-    def view_image(cls,town):
-        image = cls.objects.filter(location = town)
+    def view_image(cls, town):
+        image = cls.objects.filter(location=town)
 
         return image
-
 
